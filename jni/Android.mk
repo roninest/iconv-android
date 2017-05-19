@@ -16,9 +16,9 @@ LOCAL_CFLAGS    := \
 	-I$(LOCAL_PATH)/../libcharset/include \
 
 LOCAL_SRC_FILES := \
-     /../lib/iconv.c \
-     /../lib/relocatable.c \
-     /../libcharset/lib/localcharset.c \
+     ../lib/iconv.c \
+     ../lib/relocatable.c \
+     ../libcharset/lib/localcharset.c \
 
 include $(BUILD_SHARED_LIBRARY) 
  
