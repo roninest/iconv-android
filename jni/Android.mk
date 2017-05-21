@@ -20,6 +20,7 @@ LOCAL_SRC_FILES := \
      ../lib/relocatable.c \
      ../libcharset/lib/localcharset.c \
 
-include $(BUILD_SHARED_LIBRARY) 
+include $(BUILD_STATIC_LIBRARY) 
+##include $(BUILD_SHARED_LIBRARY) 
  
 LOCAL_LDLIBS    := -llog -lcharset
